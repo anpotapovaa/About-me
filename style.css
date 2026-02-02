@@ -1,0 +1,345 @@
+* {
+    font-family: Manrope, sans-serif;
+    box-sizing: border-box;
+    /*не забывать про это, важный элемент, который необходим, чтобы в размеры элемента включались падинги и бордеры. Намного проще рассчитывать и чтобы размер элемента был проще.*/
+}
+
+body {
+    margin: 0;
+    background: #EBEBEB;
+    padding: 64px 20px 220px 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    color: black;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.main-border {
+    border: 1px solid #333333;
+    border-radius: 32px;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.my-photo {
+    width: 100%;
+}
+
+.my-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.short-description {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    color: #76757B;
+}
+
+.my-name {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 480px;
+    gap: 20px;
+    width: 100%;
+}
+
+.write-action {
+    text-decoration: none;
+    background: #E0FB6E;
+    padding: 18px 14px;
+    border-radius: 18px;
+    max-width: 300px;
+    text-align: center;
+    color: black;
+    line-height: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.button-text {
+    width: 100%;
+}
+
+.social {
+    margin: 32px 0 0 0;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.name-socials {
+    padding-left: 24px;
+}
+
+.link-social {
+    padding: 8px 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    max-width: 232px;
+    width: 100%;
+    text-align: center;
+}
+
+.link-social span {
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bio {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.bio p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.experienc {
+    padding: 24px;
+}
+
+.my-description {
+    color: #76757B;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.experienc {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.company {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.company .period {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: #76757B;
+}
+
+.website a {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0;
+    color: #76757B;
+}
+
+.post p {
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #76757B;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.nsme-portfolio {
+    padding-left: 24px;
+}
+
+
+.portfolio .items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.portfolio .items .item {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    border-radius: 32px;
+    padding: 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+}
+
+.info .name-work {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    letter-spacing: 0px;
+}
+
+.info .short-info {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+}
+
+.info-site {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info-site a {
+    max-width: 180px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 18px 14px;
+    border-radius: 18px;
+    background-color: #E0FB6E;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.custom-button {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E0FB6E;
+    padding: 14px 24px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    gap: 12px;
+    line-height: 1;
+    display: flex;
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .my-info {
+        gap: 56px;
+    }
+
+    .description {
+        max-width: 352px;
+    }
+
+    .my-photo {
+        max-width: 401px;
+        width: 110%;
+    }
+
+    .link-social {
+        max-width: 352px;
+        flex: 1;
+        flex-basis: 200px;
+    }
+
+    .work-photo {
+        max-width: 260px;
+        flex-basis: 260px;
+    }
+
+    .work-photo img {
+        width: 100%
+    }
+
+    .info {
+        flex: 1;
+    } 
+}
+
+@media screen and (max-width: 550px) {
+    .my-info {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .my-info {
+        flex-direction: column;
+    }
+
+    .link-social {
+        flex-basis: 150px;
+    }
+
+    .portfolio .items .item {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .work-photo {
+        flex-basis: auto;
+    }
+    
+    .hidden-480 {
+        display: none;
+    }
+}
